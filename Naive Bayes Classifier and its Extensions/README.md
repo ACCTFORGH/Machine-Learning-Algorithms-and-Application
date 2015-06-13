@@ -14,12 +14,12 @@ topwordsLogOdds.java: print out the top 20 words with the highest log-odds ratio
 After compiling the java files, follow the the commands below for starting the program: <br><br>
 
 1. Extract the training and testing files to the same folder as the java files<br>
-2. run the commands below for each file <br>
-java nb split.train split.test<br>
-java topwords split.train <br>
-java nbStopWords split.train split.test 10 <br>
-(here 10 is the size of the stop words to be truncated. You can change to any value to see which is the optimal parameter) <br>
-java smoothing split.train split.test 1 <br>
-(1 is the value of the smoothing parameter)<br>
-java topwordsLogOdds split.train <br>
+2. Run the commands below for each file <br>
+   java nb split.train split.test<br>
+   java topwords split.train <br>
+   java nbStopWords split.train split.test 10 <br>
+   (here 10 is the size of the stop words to be truncated. You can change to any value to see which is the optimal parameter) <br>
+   java smoothing split.train split.test 1 <br>
+   (1 is the value of the smoothing parameter)<br>
+   java topwordsLogOdds split.train <br>
 </p>
