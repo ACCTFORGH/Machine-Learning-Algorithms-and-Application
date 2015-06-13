@@ -8,10 +8,10 @@ The Naive Bayes Classifiers are to classify a political blog as being “liberal
 2. topwords.java: prints out the top 20 words with the highest word probabilities <br>
 3. nbStopWords.java: Naive Bayes Classifier after excluding the top N words with highest probabilities<br>
 4. smoothing.java: Naive Bayes Classifier with smoothing in place<br>
-5. topwordsLogOdds.java: print out the top 20 words with the highest log-odds ratio for each class<br>
+5. topwordsLogOdds.java: print out the top 20 words with the highest log-odds ratio for each class<br><br>
 
 
-<b>After compiling the java files, follow the the commands below for starting the program: </b><br><br><br>
+<b>After compiling the java files, follow the the commands below for starting the program: </b><br><br>
 
 1. Extract the training and testing files to the same folder as the java files<br>
 2. Run the commands below for each file <br>
