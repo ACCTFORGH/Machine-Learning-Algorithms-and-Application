@@ -3,7 +3,7 @@
 <p>
 The Naive Bayes Classifiers are to classify a political blog as being “liberal” or “conservative”. After implementing the basic algorithm, the program will be extended in a few ways.<br><br>
 
-Explanation of Each File:<br><br>
+<b>Explanation of Each File:</b><br><br>
 1. nb.java: basic Naive Bayes Classifier<br>
 2. topwords.java: prints out the top 20 words with the highest word probabilities <br>
 3. nbStopWords.java: Naive Bayes Classifier after excluding the top N words with highest probabilities<br>
@@ -11,7 +11,7 @@ Explanation of Each File:<br><br>
 5. topwordsLogOdds.java: print out the top 20 words with the highest log-odds ratio for each class<br>
 
 
-After compiling the java files, follow the the commands below for starting the program: <br><br>
+<b>After compiling the java files, follow the the commands below for starting the program: </b><br><br><br>
 
 1. Extract the training and testing files to the same folder as the java files<br>
 2. Run the commands below for each file <br>
