@@ -17,9 +17,8 @@ After compiling the java files, follow the the commands below for starting the p
 2. Run the commands below for each file <br>
    1) java nb split.train split.test<br>
    2) java topwords split.train <br>
-   3) java nbStopWords split.train split.test 10 <br>
-   4) (here 10 is the size of the stop words to be truncated. You can change to any value to see which is the optimal parameter) <br>
-   5) java smoothing split.train split.test 1
+   3) java nbStopWords split.train split.test 10 (here 10 is the size of the stop words to be truncated. You can change to any value to see which is the optimal parameter) <br>
+   4) java smoothing split.train split.test 1
    (1 is the value of the smoothing parameter)<br>
-   6) java topwordsLogOdds split.train <br>
+   5) java topwordsLogOdds split.train <br>
 </p>
